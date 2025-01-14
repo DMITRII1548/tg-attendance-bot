@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'telegram' => [
+        'student' => [
+            'key' => env('TELEGRAM_STUDENT_KEY'),
+        ]
+    ],
 ];
