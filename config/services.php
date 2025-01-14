@@ -38,6 +38,9 @@ return [
     'telegram' => [
         'student' => [
             'key' => env('TELEGRAM_STUDENT_KEY'),
-        ]
+        ],
+        'teacher' => [
+            'key' => env('TELEGRAM_TEACHER_KEY'),
+        ],
     ],
 ];
