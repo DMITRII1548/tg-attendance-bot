@@ -3,10 +3,8 @@
 namespace App\Http\Controllers\Webhook;
 
 use App\Http\Controllers\Controller;
-use App\Services\StudentWebhookService;
 use App\Services\TeacherWebhookService;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Cache;
 
 class TeacherWebhookController extends Controller
 {

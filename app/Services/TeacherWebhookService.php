@@ -4,7 +4,6 @@ namespace App\Services;
 
 use App\Enums\StudentStatusEnum;
 use App\Models\Student;
-use Illuminate\Support\Facades\Cache;
 
 class TeacherWebhookService
 {
